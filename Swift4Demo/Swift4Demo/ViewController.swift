@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        substringTest()
         
-//        let subStr = Substring()
+//        substringTest()
+        
+        stringTest()
+       
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +27,45 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    func stringTest(){
+        let apples = 3
+        let oranges = 5
+        let appleSummary = "I have \(apples) apples."
+        let fruitSummary = "I have \(apples + oranges) pieces of fruit."
+        
+        print(appleSummary)
+        print(fruitSummary)
+        
+        let quotation = """
+        I said "I have \(apples) apples."
+        And then I said "I have \(apples + oranges) pieces of fruit."
+        """
+        print(quotation)
+        
+        var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+        shoppingList[1] = "bottle of water"
+        print(shoppingList)
+        
+        var occupations = [
+            "Malcolm": "Captain",
+            "Kaylee": "Mechanic",
+            ]
+        occupations["Jayne"] = "Public Relations"
+        print(occupations)
+        
+        
+        let emptyArray = [String]()
+        let emptyDictionary = [String: Float]()
+        
+        print(emptyArray)
+        print(emptyDictionary)
+        
+        shoppingList = []
+        occupations = [:]
+        print(shoppingList)
+        print(occupations)
+    }
     
     func substringTest(){
         /// A slice of a string.
