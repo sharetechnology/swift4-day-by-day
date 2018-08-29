@@ -84,9 +84,36 @@ class ViewController: UIViewController {
 //        print(threeOfSpades)
 //        print(threeOfSpadesDescription)
         
-        print(Card.createCard())
+//        print(Card.createCard())
+//
+//        print(Card.createCardDescription(Card.createCard()))
         
-        print(Card.createCardDescription(Card.createCard()))
+        var a = SimpleClass()
+        a.adjust()
+        let aDescription = a.simpleDescription
+        print(aDescription)
+//
+//        var b = SimpleStructure()
+//        b.adjust()
+//        let bDescription = b.simpleDescription
+//        print(bDescription)
+        
+//        var c = SimpleEnum.spades
+//        print(c.simpleDescription())
+//
+//        var i:Int = 10
+//        print(i.simpleDescription)
+        
+        let d: Double = 12.23
+        print(d.absoluteValue)
+        
+        let d1: Double = -12.23
+        print(d1.absoluteValue)
+        
+        let protocolValue: ExampleProtocol = a
+        print(protocolValue.simpleDescription)
+//        print(protocolValue.anotherProperty)  // 取消注释看报什么错
+//        尽管变量 protocolValue 在运行时类型为 SimpleClass，但编译器依旧会把它的类型当做 ExampleProtocol。这也就意味着，你不能随意访问在协议外的方法或属性。
     }
 
     func funcTest(){

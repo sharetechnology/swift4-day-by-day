@@ -15,6 +15,10 @@
 		7074F8862136351000ACCC28 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8852136351000ACCC28 /* Suit.swift */; };
 		7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8872136370700ACCC28 /* ServerResponse.swift */; };
 		7074F88A2136377B00ACCC28 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8892136377B00ACCC28 /* Card.swift */; };
+		7074F88C21363FD000ACCC28 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F88B21363FD000ACCC28 /* ExampleProtocol.swift */; };
+		7074F88E2136401700ACCC28 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F88D2136401700ACCC28 /* SimpleClass.swift */; };
+		7074F890213640D100ACCC28 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F88F213640D100ACCC28 /* SimpleStructure.swift */; };
+		7074F892213641AB00ACCC28 /* SimpleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F891213641AB00ACCC28 /* SimpleEnum.swift */; };
 		708C42D9213401B100635C5B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708C42D8213401B100635C5B /* Shape.swift */; };
 		70AD91BE2133E4C700C6A1B2 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD91BD2133E4C700C6A1B2 /* StringTest.swift */; };
 		70CE60DC2133DD7B002883A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE60DB2133DD7B002883A6 /* AppDelegate.swift */; };
@@ -53,6 +57,10 @@
 		7074F8852136351000ACCC28 /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
 		7074F8872136370700ACCC28 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
 		7074F8892136377B00ACCC28 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7074F88B21363FD000ACCC28 /* ExampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
+		7074F88D2136401700ACCC28 /* SimpleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
+		7074F88F213640D100ACCC28 /* SimpleStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
+		7074F891213641AB00ACCC28 /* SimpleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEnum.swift; sourceTree = "<group>"; };
 		708C42D8213401B100635C5B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		70AD91BD2133E4C700C6A1B2 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		70CE60D82133DD7B002883A6 /* Swift4Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +139,10 @@
 				7074F8852136351000ACCC28 /* Suit.swift */,
 				7074F8872136370700ACCC28 /* ServerResponse.swift */,
 				7074F8892136377B00ACCC28 /* Card.swift */,
+				7074F88B21363FD000ACCC28 /* ExampleProtocol.swift */,
+				7074F88D2136401700ACCC28 /* SimpleClass.swift */,
+				7074F88F213640D100ACCC28 /* SimpleStructure.swift */,
+				7074F891213641AB00ACCC28 /* SimpleEnum.swift */,
 				70CE60DF2133DD7B002883A6 /* Main.storyboard */,
 				70CE60E52133DD80002883A6 /* Assets.xcassets */,
 				70CE60E72133DD80002883A6 /* LaunchScreen.storyboard */,
@@ -289,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7074F88C21363FD000ACCC28 /* ExampleProtocol.swift in Sources */,
 				7074F8862136351000ACCC28 /* Suit.swift in Sources */,
 				7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */,
 				708C42D9213401B100635C5B /* Shape.swift in Sources */,
@@ -297,9 +310,12 @@
 				70CE60DE2133DD7B002883A6 /* ViewController.swift in Sources */,
 				7074F8842136334F00ACCC28 /* Rank.swift in Sources */,
 				7074F8822136314500ACCC28 /* TriangleAndSquare.swift in Sources */,
+				7074F88E2136401700ACCC28 /* SimpleClass.swift in Sources */,
 				7074F880213630A400ACCC28 /* EquilateralTriangle.swift in Sources */,
+				7074F890213640D100ACCC28 /* SimpleStructure.swift in Sources */,
 				7074F87E21362BC100ACCC28 /* Square.swift in Sources */,
 				7074F87C21362B1800ACCC28 /* NamedShape.swift in Sources */,
+				7074F892213641AB00ACCC28 /* SimpleEnum.swift in Sources */,
 				70AD91BE2133E4C700C6A1B2 /* StringTest.swift in Sources */,
 				70CE60DC2133DD7B002883A6 /* AppDelegate.swift in Sources */,
 			);
