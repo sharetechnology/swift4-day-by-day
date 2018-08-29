@@ -18,7 +18,34 @@ class ViewController: UIViewController {
 //        stringTest()
        
 //        ifTest()
-        funcTest()
+//        funcTest()
+        
+//        let shape = Shape()
+//        print(shape.simpleDescription())
+//        print(shape.testFunc(5))
+        
+//        var shape1 = Shape()
+//        shape1.numberOfSides = 7
+//        var shapeDescription = shape1.simpleDescription()
+        
+//        let test = Square(sideLength: 5.2, name: "my test square")
+//        print(test.area())
+//        print(test.simpleDescription())
+//
+//        var triangle = EquilateralTriangle(sideLength: 3.1, name: "a triangle")
+//        print(triangle.perimeter)
+//        triangle.perimeter = 9.9
+//        print(triangle.sideLength)
+//
+//        var triangleAndSquare = TriangleAndSquare(size: 10, name: "another test shape")
+//        print(triangleAndSquare.square.sideLength)
+//        print(triangleAndSquare.triangle.sideLength)
+//        triangleAndSquare.square = Square(sideLength: 50, name: "larger square")
+//        print(triangleAndSquare.triangle.sideLength)
+        
+        let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
+        let sideLength = optionalSquare?.sideLength
+        print(sideLength ?? 0)
         
     }
 
