@@ -11,6 +11,10 @@
 		7074F87E21362BC100ACCC28 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87D21362BC100ACCC28 /* Square.swift */; };
 		7074F880213630A400ACCC28 /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87F213630A400ACCC28 /* EquilateralTriangle.swift */; };
 		7074F8822136314500ACCC28 /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8812136314500ACCC28 /* TriangleAndSquare.swift */; };
+		7074F8842136334F00ACCC28 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8832136334F00ACCC28 /* Rank.swift */; };
+		7074F8862136351000ACCC28 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8852136351000ACCC28 /* Suit.swift */; };
+		7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8872136370700ACCC28 /* ServerResponse.swift */; };
+		7074F88A2136377B00ACCC28 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8892136377B00ACCC28 /* Card.swift */; };
 		708C42D9213401B100635C5B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708C42D8213401B100635C5B /* Shape.swift */; };
 		70AD91BE2133E4C700C6A1B2 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD91BD2133E4C700C6A1B2 /* StringTest.swift */; };
 		70CE60DC2133DD7B002883A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE60DB2133DD7B002883A6 /* AppDelegate.swift */; };
@@ -45,6 +49,10 @@
 		7074F87D21362BC100ACCC28 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		7074F87F213630A400ACCC28 /* EquilateralTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilateralTriangle.swift; sourceTree = "<group>"; };
 		7074F8812136314500ACCC28 /* TriangleAndSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
+		7074F8832136334F00ACCC28 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		7074F8852136351000ACCC28 /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		7074F8872136370700ACCC28 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		7074F8892136377B00ACCC28 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		708C42D8213401B100635C5B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		70AD91BD2133E4C700C6A1B2 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		70CE60D82133DD7B002883A6 /* Swift4Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +127,10 @@
 				7074F87D21362BC100ACCC28 /* Square.swift */,
 				7074F87F213630A400ACCC28 /* EquilateralTriangle.swift */,
 				7074F8812136314500ACCC28 /* TriangleAndSquare.swift */,
+				7074F8832136334F00ACCC28 /* Rank.swift */,
+				7074F8852136351000ACCC28 /* Suit.swift */,
+				7074F8872136370700ACCC28 /* ServerResponse.swift */,
+				7074F8892136377B00ACCC28 /* Card.swift */,
 				70CE60DF2133DD7B002883A6 /* Main.storyboard */,
 				70CE60E52133DD80002883A6 /* Assets.xcassets */,
 				70CE60E72133DD80002883A6 /* LaunchScreen.storyboard */,
@@ -277,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7074F8862136351000ACCC28 /* Suit.swift in Sources */,
+				7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */,
 				708C42D9213401B100635C5B /* Shape.swift in Sources */,
 				70CE60E42133DD7B002883A6 /* Swift4Demo.xcdatamodeld in Sources */,
+				7074F88A2136377B00ACCC28 /* Card.swift in Sources */,
 				70CE60DE2133DD7B002883A6 /* ViewController.swift in Sources */,
+				7074F8842136334F00ACCC28 /* Rank.swift in Sources */,
 				7074F8822136314500ACCC28 /* TriangleAndSquare.swift in Sources */,
 				7074F880213630A400ACCC28 /* EquilateralTriangle.swift in Sources */,
 				7074F87E21362BC100ACCC28 /* Square.swift in Sources */,

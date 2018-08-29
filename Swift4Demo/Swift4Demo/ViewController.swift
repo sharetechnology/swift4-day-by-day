@@ -43,10 +43,50 @@ class ViewController: UIViewController {
 //        triangleAndSquare.square = Square(sideLength: 50, name: "larger square")
 //        print(triangleAndSquare.triangle.sideLength)
         
-        let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
-        let sideLength = optionalSquare?.sideLength
-        print(sideLength ?? 0)
+//        let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
+//        let sideLength = optionalSquare?.sideLength
+//        print(sideLength ?? 0)]
         
+//        let ace = Rank.ace
+//        let aceRawValue = ace.rawValue
+//        
+//        print(ace)
+//        print(aceRawValue)
+//        
+//        let queen = Rank.queen
+//        let queenRawValue = queen.rawValue
+//        
+//        print(queen)
+//        print(queenRawValue)
+//        
+//        if let convertedRank = Rank(rawValue: 11) {
+//            let threeDescription = convertedRank.simpleDescription()
+//            print(threeDescription)
+//        }
+//        
+//        
+//        let hearts = Suit.hearts
+//        let heartsDescription = hearts.simpleDescription()
+//        print(heartsDescription)
+        
+//        let success = ServerResponse.result("6:00 am", "8:09 pm")
+//        let failure = ServerResponse.failure("Out of cheese.")
+//
+//        switch success {
+//        case let .result(sunrise, sunset):
+//            print("Sunrise is at \(sunrise) and sunset is at \(sunset).")
+//        case let .failure(message):
+//            print("Failure...  \(message)")
+//        }
+        
+//        let threeOfSpades = Card(rank: .three, suit: .spades)
+//        let threeOfSpadesDescription = threeOfSpades.simpleDescription()
+//        print(threeOfSpades)
+//        print(threeOfSpadesDescription)
+        
+        print(Card.createCard())
+        
+        print(Card.createCardDescription(Card.createCard()))
     }
 
     func funcTest(){
