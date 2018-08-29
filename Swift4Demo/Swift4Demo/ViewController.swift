@@ -88,10 +88,10 @@ class ViewController: UIViewController {
 //
 //        print(Card.createCardDescription(Card.createCard()))
         
-        var a = SimpleClass()
-        a.adjust()
-        let aDescription = a.simpleDescription
-        print(aDescription)
+//        var a = SimpleClass()
+//        a.adjust()
+//        let aDescription = a.simpleDescription
+//        print(aDescription)
 //
 //        var b = SimpleStructure()
 //        b.adjust()
@@ -104,18 +104,79 @@ class ViewController: UIViewController {
 //        var i:Int = 10
 //        print(i.simpleDescription)
         
-        let d: Double = 12.23
-        print(d.absoluteValue)
-        
-        let d1: Double = -12.23
-        print(d1.absoluteValue)
-        
-        let protocolValue: ExampleProtocol = a
-        print(protocolValue.simpleDescription)
+//        let d: Double = 12.23
+//        print(d.absoluteValue)
+//
+//        let d1: Double = -12.23
+//        print(d1.absoluteValue)
+//
+//        let protocolValue: ExampleProtocol = a
+//        print(protocolValue.simpleDescription)
 //        print(protocolValue.anotherProperty)  // 取消注释看报什么错
 //        尽管变量 protocolValue 在运行时类型为 SimpleClass，但编译器依旧会把它的类型当做 ExampleProtocol。这也就意味着，你不能随意访问在协议外的方法或属性。
+        
+//        do {
+//            let printerResponse = try send(job: 1040, toPrinter: "Bi Sheng")
+//            print(printerResponse)
+//        } catch {
+//            print(error)
+//        }
+//
+//        do {
+//            let printerResponse = try send(job: 1440, toPrinter: "Never Has Toner")
+//            print(printerResponse)
+//        } catch PrinterError.onFire {
+//            print("I'll just put this over here, with the rest of the fire.")
+//        } catch let printerError as PrinterError {
+//            print("Printer error: \(printerError).")
+//        } catch {
+//            print(error)
+//        }
+        
+//        let printerSuccess = try? send(job: 1884, toPrinter: "Mergenthaler")
+//
+//        print(printerSuccess)
+//
+//
+//        let printerFailure = try? send(job: 1885, toPrinter: "Never Has Toner")
+//        print(printerFailure)
+        
+        print(fridgeContains("banana"))
+        print(fridgeIsOpen)
+        
+        print(fridgeContains("eggs"))
+        print(fridgeIsOpen)
     }
-
+    
+    var fridgeIsOpen = false
+    let fridgeContent = ["milk", "eggs", "leftovers"]
+    
+    func fridgeContains(_ food: String) -> Bool {
+        fridgeIsOpen = true
+        
+//        使用  defer 来写在函数返回后也会被执行的代码块。无论这个函数是否抛出异常，这个代码都会被执行。即使他们需要再不同的时间段执行，你仍可以使用 defer  来简化代码。
+        
+        defer {
+            fridgeIsOpen = false
+        }
+        
+        let result = fridgeContent.contains(food)
+        return result
+    }
+ 
+//    case outOfPaper
+//    case noToner
+//    case onFire
+    
+    func send(job: Int, toPrinter printerName: String) throws -> String {
+        if printerName == "Never Has Toner" {
+            throw PrinterError.noToner
+        }else if printerName == "On Fire" {
+            throw PrinterError.onFire
+        }
+        return "Job sent"
+    }
+    
     func funcTest(){
         func greet(person: String, day: String) -> String {
             return "Hello \(person), today is \(day)."
