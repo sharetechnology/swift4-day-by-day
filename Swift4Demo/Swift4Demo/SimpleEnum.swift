@@ -6,6 +6,11 @@
 //  Copyright © 2018年 st. All rights reserved.
 //
 
+enum OptionalValue<Wrapped> {
+    case none
+    case some(Wrapped)
+}
+
 
 extension Int: ExampleProtocol {
     var simpleDescription: String {

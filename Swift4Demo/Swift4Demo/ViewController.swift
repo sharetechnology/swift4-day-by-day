@@ -141,12 +141,56 @@ class ViewController: UIViewController {
 //        let printerFailure = try? send(job: 1885, toPrinter: "Never Has Toner")
 //        print(printerFailure)
         
-        print(fridgeContains("banana"))
-        print(fridgeIsOpen)
+//        print(fridgeContains("banana"))
+//        print(fridgeIsOpen)
+//
+//        print(fridgeContains("eggs"))
+//        print(fridgeIsOpen)
         
-        print(fridgeContains("eggs"))
-        print(fridgeIsOpen)
+//        let result = makeArray(repeating: "knock", numberOfTimes: 4)
+//        print(result)
+        
+        var possibleInteger: OptionalValue<Int> = .none
+        possibleInteger = .some(100)
+        print(possibleInteger)
+        
+        print(anyCommonElements([1, 2, 3], [3]))
+        
+        print(anyCommonElement([1, 2, 3], [3]))
     }
+    
+    func anyCommonElements<T: Sequence, U: Sequence>(_ lhs: T, _ rhs: U) -> Bool
+        where T.Iterator.Element: Equatable, T.Iterator.Element == U.Iterator.Element {
+            for lhsItem in lhs {
+                for rhsItem in rhs {
+                    if lhsItem == rhsItem {
+                        return true
+                    }
+                }
+            }
+            return false
+    }
+    
+    func anyCommonElement<T: Sequence, U: Sequence, S>(_ lhs: T, _ rhs: U) -> S
+        where T.Iterator.Element: Equatable, T.Iterator.Element == U.Iterator.Element {
+            for lhsItem in lhs {
+                for rhsItem in rhs {
+                    if lhsItem == rhsItem {
+                        return lhsItem as! S
+                    }
+                }
+            }
+            return "" as! S
+    }
+    
+    func makeArray<Item>(repeating item: Item, numberOfTimes: Int) -> [Item] {
+        var result = [Item]()
+        for _ in 0..<numberOfTimes {
+            result.append(item)
+        }
+        return result
+    }
+    
     
     var fridgeIsOpen = false
     let fridgeContent = ["milk", "eggs", "leftovers"]
