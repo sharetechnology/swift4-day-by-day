@@ -150,13 +150,13 @@ class ViewController: UIViewController {
 //        let result = makeArray(repeating: "knock", numberOfTimes: 4)
 //        print(result)
         
-        var possibleInteger: OptionalValue<Int> = .none
-        possibleInteger = .some(100)
-        print(possibleInteger)
-        
-        print(anyCommonElements([1, 2, 3], [3]))
-        
-        print(anyCommonElement([1, 2, 3], [3]))
+//        var possibleInteger: OptionalValue<Int> = .none
+//        possibleInteger = .some(100)
+//        print(possibleInteger)
+//        
+//        print(anyCommonElements([1, 2, 3], [3]))
+//        
+//        print(anyCommonElement([1, 2, 3], [3]))
     }
     
     func anyCommonElements<T: Sequence, U: Sequence>(_ lhs: T, _ rhs: U) -> Bool

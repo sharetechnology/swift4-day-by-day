@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705BF92821377F8B004E842C /* StringsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BF92721377F8B004E842C /* StringsController.swift */; };
 		7074F87C21362B1800ACCC28 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87B21362B1800ACCC28 /* NamedShape.swift */; };
 		7074F87E21362BC100ACCC28 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87D21362BC100ACCC28 /* Square.swift */; };
 		7074F880213630A400ACCC28 /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87F213630A400ACCC28 /* EquilateralTriangle.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		705BF92721377F8B004E842C /* StringsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsController.swift; sourceTree = "<group>"; };
 		7074F87B21362B1800ACCC28 /* NamedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
 		7074F87D21362BC100ACCC28 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		7074F87F213630A400ACCC28 /* EquilateralTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilateralTriangle.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				7074F891213641AB00ACCC28 /* SimpleEnum.swift */,
 				7074F8932136494B00ACCC28 /* PrinterError.swift */,
 				70CE60DF2133DD7B002883A6 /* Main.storyboard */,
+				705BF92721377F8B004E842C /* StringsController.swift */,
 				70CE60E52133DD80002883A6 /* Assets.xcassets */,
 				70CE60E72133DD80002883A6 /* LaunchScreen.storyboard */,
 				70CE60EA2133DD80002883A6 /* Info.plist */,
@@ -307,6 +310,7 @@
 				7074F88C21363FD000ACCC28 /* ExampleProtocol.swift in Sources */,
 				7074F8862136351000ACCC28 /* Suit.swift in Sources */,
 				7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */,
+				705BF92821377F8B004E842C /* StringsController.swift in Sources */,
 				708C42D9213401B100635C5B /* Shape.swift in Sources */,
 				70CE60E42133DD7B002883A6 /* Swift4Demo.xcdatamodeld in Sources */,
 				7074F88A2136377B00ACCC28 /* Card.swift in Sources */,
