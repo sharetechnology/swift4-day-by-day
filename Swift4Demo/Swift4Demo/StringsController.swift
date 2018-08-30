@@ -28,6 +28,21 @@ class StringsController: UIViewController{
         // 打印 "Hello Jane!"
         // 打印 "I hope the weather is nice in Cupertino."
         
+        
+        var currentValue = 4
+        let moveNearerToZero = chooseStepFunction(backward: currentValue > 0)
+        //  `moveNearerToZero` 变量引用着 `stepForward()` 函数
+        while currentValue != 0 {
+            print("\(currentValue)... ")
+            currentValue = moveNearerToZero(currentValue)
+        }
+        print("zero!")
+    }
+    
+    func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+        func stepForward(input: Int) -> Int { return input + 1 }
+        func stepBackward(input: Int) -> Int { return input - 1 }
+        return backward ? stepBackward : stepForward
     }
     
     
