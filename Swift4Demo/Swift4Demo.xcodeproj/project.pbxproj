@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70436690213A1DA800260C6C /* ProtocolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7043668F213A1DA800260C6C /* ProtocolController.swift */; };
+		70446A47213CC5CC003C90A4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70446A46213CC5CC003C90A4 /* TestViewController.swift */; };
 		705BF92821377F8B004E842C /* StringsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BF92721377F8B004E842C /* StringsController.swift */; };
 		7074F87C21362B1800ACCC28 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87B21362B1800ACCC28 /* NamedShape.swift */; };
 		7074F87E21362BC100ACCC28 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F87D21362BC100ACCC28 /* Square.swift */; };
@@ -21,6 +23,7 @@
 		7074F890213640D100ACCC28 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F88F213640D100ACCC28 /* SimpleStructure.swift */; };
 		7074F892213641AB00ACCC28 /* SimpleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F891213641AB00ACCC28 /* SimpleEnum.swift */; };
 		7074F8942136494B00ACCC28 /* PrinterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074F8932136494B00ACCC28 /* PrinterError.swift */; };
+		7089503C2137F3C7000ABB8E /* EnumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7089503B2137F3C7000ABB8E /* EnumController.swift */; };
 		708C42D9213401B100635C5B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708C42D8213401B100635C5B /* Shape.swift */; };
 		70AD91BE2133E4C700C6A1B2 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD91BD2133E4C700C6A1B2 /* StringTest.swift */; };
 		70CE60DC2133DD7B002883A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE60DB2133DD7B002883A6 /* AppDelegate.swift */; };
@@ -51,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7043668F213A1DA800260C6C /* ProtocolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolController.swift; sourceTree = "<group>"; };
+		70446A46213CC5CC003C90A4 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		705BF92721377F8B004E842C /* StringsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsController.swift; sourceTree = "<group>"; };
 		7074F87B21362B1800ACCC28 /* NamedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
 		7074F87D21362BC100ACCC28 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 		7074F88F213640D100ACCC28 /* SimpleStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
 		7074F891213641AB00ACCC28 /* SimpleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEnum.swift; sourceTree = "<group>"; };
 		7074F8932136494B00ACCC28 /* PrinterError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
+		7089503B2137F3C7000ABB8E /* EnumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumController.swift; sourceTree = "<group>"; };
 		708C42D8213401B100635C5B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		70AD91BD2133E4C700C6A1B2 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 		70CE60D82133DD7B002883A6 /* Swift4Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +156,9 @@
 				7074F8932136494B00ACCC28 /* PrinterError.swift */,
 				70CE60DF2133DD7B002883A6 /* Main.storyboard */,
 				705BF92721377F8B004E842C /* StringsController.swift */,
+				7089503B2137F3C7000ABB8E /* EnumController.swift */,
+				7043668F213A1DA800260C6C /* ProtocolController.swift */,
+				70446A46213CC5CC003C90A4 /* TestViewController.swift */,
 				70CE60E52133DD80002883A6 /* Assets.xcassets */,
 				70CE60E72133DD80002883A6 /* LaunchScreen.storyboard */,
 				70CE60EA2133DD80002883A6 /* Info.plist */,
@@ -186,6 +195,7 @@
 				70CE60D42133DD7B002883A6 /* Sources */,
 				70CE60D52133DD7B002883A6 /* Frameworks */,
 				70CE60D62133DD7B002883A6 /* Resources */,
+				70F5D3712138F400007CD85C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -302,12 +312,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70F5D3712138F400007CD85C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:|WARNING:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"| perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70CE60D42133DD7B002883A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7074F88C21363FD000ACCC28 /* ExampleProtocol.swift in Sources */,
+				70436690213A1DA800260C6C /* ProtocolController.swift in Sources */,
+				70446A47213CC5CC003C90A4 /* TestViewController.swift in Sources */,
 				7074F8862136351000ACCC28 /* Suit.swift in Sources */,
 				7074F8882136370700ACCC28 /* ServerResponse.swift in Sources */,
 				705BF92821377F8B004E842C /* StringsController.swift in Sources */,
@@ -319,6 +347,7 @@
 				7074F8822136314500ACCC28 /* TriangleAndSquare.swift in Sources */,
 				7074F88E2136401700ACCC28 /* SimpleClass.swift in Sources */,
 				7074F880213630A400ACCC28 /* EquilateralTriangle.swift in Sources */,
+				7089503C2137F3C7000ABB8E /* EnumController.swift in Sources */,
 				7074F890213640D100ACCC28 /* SimpleStructure.swift in Sources */,
 				7074F87E21362BC100ACCC28 /* Square.swift in Sources */,
 				7074F8942136494B00ACCC28 /* PrinterError.swift in Sources */,
